@@ -22,9 +22,10 @@ def writeText(filename):
     try:
         text = extractText(filename)
         f.write(text)
-        f.write("\n\t\t\t =================================================================================== \n\n")
+        f.write("\n\t\t\t=================================================================================== \n\n")
     except:
-        print("exception....\n")
+        f.write("Exception Thrown....\n")
+        f.write("\n\t\t\t=================================================================================== \n\n")
 
 
 def printText(filename):
@@ -43,9 +44,9 @@ def title():
     """ This Function Will Print the Title """
 
     print("\n\n")
-    print("\t\t\t\t =============================================================================================== ")
-    print("\t\t\t\t ============================ READ IMAGE TEXT AND WRITE IN NEW FILE ============================ ")
-    print("\t\t\t\t =============================================================================================== ")
+    print("\t\t\t\t=============================================================================================== ")
+    print("\t\t\t\t============================ READ IMAGE TEXT AND WRITE IN NEW FILE ============================ ")
+    print("\t\t\t\t=============================================================================================== ")
     print("\n\n")
 
 
@@ -59,13 +60,14 @@ def mainMenu():
         print("Press 1 to continue \n")
         print('===========================================\n')
 
-        terminate = eval(input("Enter Your Choice          : "))
+        terminate = eval(input("Enter Your Choice : "))
 
         if terminate == 0:
             exit()
         elif terminate == 1:
-            filename = input("Enter File Path and Name   : ")
-            print("\n =================================================\n")
+            filename = input("Enter File Path and Name : ")
+            print("\n=================================================\n")
+            f.write(f"File Directory is => {filename} \n\n")
             result(filename)
         else:
             print("Invalid Input....\n")
