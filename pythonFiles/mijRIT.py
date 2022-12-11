@@ -44,7 +44,7 @@ def title():
 
     print("\n\n")
     print("\t\t\t\t =============================================================================================== ")
-    print("\t\t\t\t ============================ Read Image Text and Write In New File ============================ ")
+    print("\t\t\t\t ============================ READ IMAGE TEXT AND WRITE IN NEW FILE ============================ ")
     print("\t\t\t\t =============================================================================================== ")
     print("\n\n")
 
@@ -60,12 +60,12 @@ def mainMenu():
         print('===========================================\n')
 
         terminate = eval(input("Enter Your Choice          : "))
-        print("\n")
 
         if terminate == 0:
             exit()
         elif terminate == 1:
-            filename = input("Enter File Path and Name  : \n\n")
+            filename = input("Enter File Path and Name   : ")
+            print("\n =================================================\n")
             result(filename)
         else:
             print("Invalid Input....\n")
