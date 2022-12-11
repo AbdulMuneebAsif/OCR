@@ -14,7 +14,7 @@ def extractText(filename):
         text = pytesseract.image_to_string(img)
         return text
     except:
-        print("exception")
+        print("exception....\n")
 
 
 def writeText(filename):
@@ -24,7 +24,7 @@ def writeText(filename):
         f.write(text)
         f.write("\n\t\t\t =================================================================================== \n\n")
     except:
-        print("exception")
+        print("exception....\n")
 
 
 def printText(filename):
@@ -55,12 +55,14 @@ def mainMenu():
 
         print(" Press 0 to stop / exit terminate ")
         print(" Press 1 to continue ")
+        print('\n')
+
         terminate = eval(input(" Enter Your Choice : "))
 
         if terminate == 0:
             exit()
         elif terminate == 1:
-            filename = input("Enter File Name : ")
+            filename = input(" Enter File Name : ")
             result(filename)
         else:
-            print("Invalid Input")
+            print("Invalid Input....\n")
