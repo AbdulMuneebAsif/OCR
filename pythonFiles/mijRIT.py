@@ -2,7 +2,7 @@ import pytesseract
 from PIL import Image
 
 path = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-f = open("ExtractedText.txt", "a")
+f = open("../TextFiles/ExtractedText.txt", "a")
 
 
 def extractText(filename):
@@ -53,16 +53,17 @@ def mainMenu():
     title()
     while 1:
 
-        print(" Press 0 to stop / exit terminate ")
-        print(" Press 1 to continue ")
-        print('\n')
+        print('===========================================\n')
+        print("Press 0 to stop / exit terminate ")
+        print("Press 1 to continue ")
+        print('===========================================\n')
 
-        terminate = eval(input(" Enter Your Choice : "))
+        terminate = eval(input("Enter Your Choice       : "))
 
         if terminate == 0:
             exit()
         elif terminate == 1:
-            filename = input(" Enter File Name : ")
+            filename = input(" Enter File Path and Name  : ")
             result(filename)
         else:
             print("Invalid Input....\n")
