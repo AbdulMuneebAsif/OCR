@@ -50,20 +50,22 @@ def title():
 
 
 def mainMenu():
+    """ This Function is for Menu """
     title()
     while 1:
 
         print('===========================================\n')
         print("Press 0 to stop / exit terminate ")
-        print("Press 1 to continue ")
+        print("Press 1 to continue \n")
         print('===========================================\n')
 
-        terminate = eval(input("Enter Your Choice       : "))
+        terminate = eval(input("Enter Your Choice          : "))
+        print("\n")
 
         if terminate == 0:
             exit()
         elif terminate == 1:
-            filename = input(" Enter File Path and Name  : ")
+            filename = input("Enter File Path and Name  : \n\n")
             result(filename)
         else:
             print("Invalid Input....\n")
