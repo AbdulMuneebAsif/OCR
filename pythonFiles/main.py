@@ -2,7 +2,6 @@ import mijRIT
 import mijTTS
 
 def menu():
-
     while True:
 
         print("\n\t\t\t ============================ MENU ================================\n")
@@ -24,8 +23,4 @@ def menu():
 
 
 if __name__ == '__main__':
-
     menu()
-
-
-
