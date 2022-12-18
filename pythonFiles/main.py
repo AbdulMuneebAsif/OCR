@@ -2,8 +2,8 @@ import mijRIT
 import mijSteg
 import mijTTS
 
-def menu():
 
+def menu():
     while True:
 
         print("\n\t\t\t ============================ MENU ================================\n")
@@ -28,7 +28,6 @@ def menu():
         else:
             print("invalid input!")
             menu()
-
 
 
 menu()
