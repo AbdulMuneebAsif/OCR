@@ -12,7 +12,6 @@ def extractText(filename):
     try:
         pytesseract.pytesseract.tesseract_cmd = path
         img = Image.open(filename)
-
         text = pytesseract.image_to_string(img)
         return text
     except:
@@ -77,11 +76,12 @@ def mainMenu():
             # ==================================== PLAY SOUND =========================================
 
             optionToPlaySound = input("Do you want to convert this text into speech (yes/no): ")
-            optionToPlaySound.lower()
+            tts = optionToPlaySound
+            tts.lower()
 
-            if optionToPlaySound == 'yes':
+            if tts == 'yes':
                 mijTTS.textToSpeech(extractText(filename))
-            elif optionToPlaySound == 'no':
+            elif tts == 'no':
                 mainMenu()
             else:
                 print("Invalid Input!")
