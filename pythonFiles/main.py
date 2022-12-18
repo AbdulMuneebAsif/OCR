@@ -1,7 +1,9 @@
 import mijRIT
+import mijSteg
 import mijTTS
 
 def menu():
+
     while True:
 
         print("\n\t\t\t ============================ MENU ================================\n")
@@ -9,6 +11,7 @@ def menu():
         print("0. stop / terminate / end")
         print("1. Convert Image to Text")
         print("2. Convert Text to Speech")
+        print("3. Hide data in image (Steganography)")
 
         print("\n\t\t\t ==================================================================\n")
         choice = int(input("Enter You Choice : "))
@@ -20,7 +23,12 @@ def menu():
         elif choice == 2:
             text = input("Enter Your Text here => ")
             mijTTS.textToSpeech(text)
+        elif choice == 3:
+            mijSteg.stegnography()
+        else:
+            print("invalid input!")
+            menu()
 
 
-if __name__ == '__main__':
-    menu()
+
+menu()
