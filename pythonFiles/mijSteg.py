@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 from PIL import Image
-import main
 
 
 # it convert data in binary formate
@@ -102,10 +101,5 @@ def stegnography():
             ans = decode()
             print("\n your message => ", ans)
         x = int(input("\n enter 1 for continue \n enter 0 for menu \n Enter your choice => "))
-        if x == 1:
-            stegnography()
-        elif x == 0:
-            main.menu()
 
-#
 # stegnography()
