@@ -1,5 +1,7 @@
 import pytesseract
 from PIL import Image
+import mijTTS
+import main
 
 path = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 f = open("../TextFiles/ExtractedText.txt", "a")
@@ -63,11 +65,29 @@ def mainMenu():
         terminate = eval(input("Enter Your Choice : "))
 
         if terminate == 0:
-            exit()
+
+            main.menu()
+
         elif terminate == 1:
             filename = input("Enter File Path and Name : ")
             print("\n=================================================\n")
             f.write(f"File Directory is => {filename} \n\n")
             result(filename)
+
+            # ==================================== PLAY SOUND =========================================
+
+            optionToPlaySound = input("Do you want to convert this text into speech (yes/no): ")
+            optionToPlaySound.lower()
+
+            if optionToPlaySound == 'yes':
+                mijTTS.textToSpeech(extractText(filename))
+            elif optionToPlaySound == 'no':
+                mainMenu()
+            else:
+                print("Invalid Input!")
+
         else:
             print("Invalid Input....\n")
+
+
+
