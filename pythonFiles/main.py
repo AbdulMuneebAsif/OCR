@@ -26,6 +26,6 @@ def menu():
         elif choice == 3:
             mijSteg.stegnography()
 
-print(__name__)
+
 if __name__ == '__main__':
     menu()
