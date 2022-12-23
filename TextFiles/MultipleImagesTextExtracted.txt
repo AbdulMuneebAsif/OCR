@@ -14,3 +14,35 @@ Actionable Study Group
 			===========================================================================
 
 Thank You Very Much!
+
+			===========================================================================
+
+# The string to search in
+
+string = "The quick brown fox jumps over the lazy dog.”
+
+# The word to search for
+word = "the"
+
+# Convert the string and the word to lowercase
+string = string.lower()
+word = word. lower()
+
+# Count the occurrences of the word in the string
+count = string.count(word)
+
+# Print the result
+print(f"The word "{word}’ appears {count} times in the string.")
+
+			===========================================================================
+
+‘There are several sections of the Administrative Simplification provisions enti-
+tled Riphah International Hospital Requirements, but whereas the others relate
+to “non-well-known scenarios” (for example hybrid entities and fitness plan uses
+and disclosures), the Riphah International Hospital Requirements of the Secu-
+rity Rule are applicable to maximum Covered Entities and Business Associates
+as they cover Business Associate Agreements. Business Associate Agreements
+also are protected some place else within the Administrative Simplification pro-
+visions, however it’s far essential for Riphah International Hospital in a business
+courting wherein ePHI is disclosed to be aware of this particular segment be-
+cause it stipulates:

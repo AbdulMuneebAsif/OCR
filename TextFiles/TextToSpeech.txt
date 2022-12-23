@@ -119,3 +119,25 @@ extensible.
 
 			=================================================================================== 
 
+
+			=================================================================================== 
+
+# The string to search in
+
+string = "The quick brown fox jumps over the lazy dog.”
+
+# The word to search for
+word = "the"
+
+# Convert the string and the word to lowercase
+string = string.lower()
+word = word. lower()
+
+# Count the occurrences of the word in the string
+count = string.count(word)
+
+# Print the result
+print(f"The word "{word}’ appears {count} times in the string.")
+
+			=================================================================================== 
+
