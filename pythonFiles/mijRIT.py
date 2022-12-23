@@ -80,7 +80,7 @@ def mainMenu():
             tts.lower()
 
             if tts == 'yes':
-                mijTTS.textToSpeech(extractText(filename))
+                mijTTS.textToSpeechWithoutPrint(extractText(filename))
             elif tts == 'no':
                 mainMenu()
             else:

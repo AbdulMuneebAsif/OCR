@@ -152,3 +152,43 @@ cause it stipulates:
 
 			=================================================================================== 
 
+File Directory is => C:\Users\h\PycharmProjects\mijEIT\images\img.png 
+
+Addressing Modes
+
+>The way in which operands of an instruction are specified.
+
+>The operand may be mentioned directly or specified in
+register/memory.
+
+»The addressing mode specifies a rule for interpreting or
+modifying the address field of the instruction before the
+operand is actually executed.
+
+> 12 types of Data Addressing Mode.
+
+»Lam going to discuss 2 of them. i.e. Direct Addressing Mode
+and Indirect Addressing Mode
+
+			=================================================================================== 
+
+File Directory is => C:\Users\h\PycharmProjects\mijEIT\images\img2.png 
+
+Indirect Addressing Mode
+
+»The address field of the instruction contains the address of
+memory location or register.
+
+»That memory location contains the effective address of the
+required.
+
+»Two references of memory are required to fetch the required
+
+»Pointers or variables use to contain the address of another
+variable.
+
+»>Further classified into two categories- Memory Indirect and
+Register Indirect Addressing Mode.
+
+			=================================================================================== 
+

@@ -1,6 +1,8 @@
 import mijRIT
 import mijTTS
 import mijSteg
+import mijRMIT
+
 
 def menu():
     while True:
@@ -11,6 +13,7 @@ def menu():
         print("1. Convert Image to Text")
         print("2. Convert Text to Speech")
         print("3. Steganography --> hide data into image")
+        print("4. Extract text from multiple images at a time ")
 
         print("\n\t\t\t ==================================================================\n")
         choice = int(input("Enter You Choice : "))
@@ -24,7 +27,10 @@ def menu():
             mijTTS.textToSpeech(text)
         elif choice == 3:
             mijSteg.stegnography()
-
+        elif choice == 4:
+            mijRMIT.extract()
+        else:
+            print("Invalid Input....")
 
 if __name__ == '__main__':
     menu()

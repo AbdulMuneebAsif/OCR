@@ -1,46 +1,6 @@
 
 			===========================================================================
 
-Thank You Very Much!
-
-			===========================================================================
-
-Addressing Modes
-
->The way in which operands of an instruction are specified.
-
->The operand may be mentioned directly or specified in
-register/memory.
-
-»The addressing mode specifies a rule for interpreting or
-modifying the address field of the instruction before the
-operand is actually executed.
-
-> 12 types of Data Addressing Mode.
-
-»Lam going to discuss 2 of them. i.e. Direct Addressing Mode
-and Indirect Addressing Mode
-
-			===========================================================================
-
-Indirect Addressing Mode
-
-»The address field of the instruction contains the address of
-memory location or register.
-
-»That memory location contains the effective address of the
-required.
-
-»Two references of memory are required to fetch the required
-
-»Pointers or variables use to contain the address of another
-variable.
-
-»>Further classified into two categories- Memory Indirect and
-Register Indirect Addressing Mode.
-
-			===========================================================================
-
 Data from the survey suggest that
 coworking is an immensely
 important trend and is on a steady
@@ -53,13 +13,4 @@ Actionable Study Group
 
 			===========================================================================
 
-‘There are several sections of the Administrative Simplification provisions enti-
-tled Riphah International Hospital Requirements, but whereas the others relate
-to “non-well-known scenarios” (for example hybrid entities and fitness plan uses
-and disclosures), the Riphah International Hospital Requirements of the Secu-
-rity Rule are applicable to maximum Covered Entities and Business Associates
-as they cover Business Associate Agreements. Business Associate Agreements
-also are protected some place else within the Administrative Simplification pro-
-visions, however it’s far essential for Riphah International Hospital in a business
-courting wherein ePHI is disclosed to be aware of this particular segment be-
-cause it stipulates:
+Thank You Very Much!

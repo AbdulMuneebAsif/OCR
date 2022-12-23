@@ -31,3 +31,91 @@ Actionable Study Group
 HELOO WORLD
 			=================================================================================== 
 
+
+			=================================================================================== 
+
+hi palto
+			=================================================================================== 
+
+
+			=================================================================================== 
+
+Indirect Addressing Mode
+
+»The address field of the instruction contains the address of
+memory location or register.
+
+»That memory location contains the effective address of the
+required.
+
+»Two references of memory are required to fetch the required
+
+»Pointers or variables use to contain the address of another
+variable.
+
+»>Further classified into two categories- Memory Indirect and
+Register Indirect Addressing Mode.
+
+			=================================================================================== 
+
+
+			=================================================================================== 
+
+Thank You Very Much!
+
+			=================================================================================== 
+
+
+			=================================================================================== 
+
+Addressing Modes
+
+>The way in which operands of an instruction are specified.
+
+>The operand may be mentioned directly or specified in
+register/memory.
+
+»The addressing mode specifies a rule for interpreting or
+modifying the address field of the instruction before the
+operand is actually executed.
+
+> 12 types of Data Addressing Mode.
+
+»Lam going to discuss 2 of them. i.e. Direct Addressing Mode
+and Indirect Addressing Mode
+
+			=================================================================================== 
+
+
+			=================================================================================== 
+
+Train to Maximize Autopsy Usability
+
+Reduce your learning curve and accelerate your forensic
+examinations’ efficiency when you attend Basis Technology's
+1-day Autopsy training course. Taught by Brian Carrier, who
+thas been involved with Autopsy since its inception in 2000, the
+course describes how to use Autopsy to execute an optimal
+end-to-end digital investigation, as well as what the tool is,
+doing behind the scenes.
+
+Enhanced Commercial Support
+
+Get enterprise-level backing for your investigative needs.
+While Autopsy's volunteer user community can help with basic
+problems, many labs want the assurance that their issues will
+be promptly addressed. Basis Technology provides support ir
+case you encounter problems. This service allows you to engage
+directly with Basis engineers to ensure the issues are quickly
+diagnosed and addressed.
+
+Extensible through Add-On Modules
+
+Different organizations have different needs and workflows.
+‘Autopsy includes a standard set of modules to cover a broad
+array of investigative use cases, but was designed to be
+extensible.
+
+
+			=================================================================================== 
+
