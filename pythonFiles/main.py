@@ -2,7 +2,6 @@ import mijRIT
 import mijTTS
 import mijSteg
 
-
 def menu():
     while True:
 
@@ -13,7 +12,7 @@ def menu():
         print("2. Convert Text to Speech")
         print("3. Steganography --> hide data into image")
 
-        print("\n\t\t\t===================================================================\n")
+        print("\n\t\t\t ==================================================================\n")
         choice = int(input("Enter You Choice : "))
 
         if choice == 0:
