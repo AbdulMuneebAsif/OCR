@@ -46,3 +46,64 @@ also are protected some place else within the Administrative Simplification pro-
 visions, however it’s far essential for Riphah International Hospital in a business
 courting wherein ePHI is disclosed to be aware of this particular segment be-
 cause it stipulates:
+
+			===========================================================================
+
+# The string to search in
+
+string = "The quick brown fox jumps over the lazy dog.”
+
+# The word to search for
+word = "the"
+
+# Convert the string and the word to lowercase
+string = string.lower()
+word = word. lower()
+
+# Count the occurrences of the word in the string
+count = string.count(word)
+
+# Print the result
+print(f"The word "{word}’ appears {count} times in the string.")
+
+			===========================================================================
+
+Train to Maximize Autopsy Usability
+
+Reduce your learning curve and accelerate your forensic
+examinations’ efficiency when you attend Basis Technology's
+1-day Autopsy training course. Taught by Brian Carrier, who
+thas been involved with Autopsy since its inception in 2000, the
+course describes how to use Autopsy to execute an optimal
+end-to-end digital investigation, as well as what the tool is,
+doing behind the scenes.
+
+Enhanced Commercial Support
+
+Get enterprise-level backing for your investigative needs.
+While Autopsy's volunteer user community can help with basic
+problems, many labs want the assurance that their issues will
+be promptly addressed. Basis Technology provides support ir
+case you encounter problems. This service allows you to engage
+directly with Basis engineers to ensure the issues are quickly
+diagnosed and addressed.
+
+Extensible through Add-On Modules
+
+Different organizations have different needs and workflows.
+‘Autopsy includes a standard set of modules to cover a broad
+array of investigative use cases, but was designed to be
+extensible.
+
+
+			===========================================================================
+
+Data from the survey suggest that
+coworking is an immensely
+important trend and is on a steady
+path to become visible in every
+major city.
+
+— Jennifer Bane
+Actionable Study Group
+

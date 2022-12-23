@@ -58,7 +58,3 @@ def extract():
         else:
             print("invalid Input....")
 
-
-if __name__ == '__main__':
-    extract()
-    main.menu()
