@@ -9,10 +9,10 @@ def menu():
 
         print("\n\t\t\t ============================ MENU ================================\n")
 
-        print("0. stop / terminate / end")
-        print("1. Convert Image to Text")
-        print("2. Convert Text to Speech")
-        print("3. Steganography --> hide data into image")
+        print("0. stop / terminate / end ")
+        print("1. Convert Image to Text ")
+        print("2. Convert Text to Speech ")
+        print("3. Steganography --> hide data into image ")
         print("4. Extract text from multiple images at a time ")
 
         print("\n\t\t\t ==================================================================\n")
@@ -31,6 +31,7 @@ def menu():
             mijRMIT.extract()
         else:
             print("Invalid Input....")
+
 
 if __name__ == '__main__':
     menu()
