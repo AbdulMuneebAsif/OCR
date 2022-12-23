@@ -1,8 +1,8 @@
 from tkinter import filedialog
 import pytesseract as tess
 from PIL import Image
-
-import mijTTS, main
+import main
+import mijTTS
 
 tess.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
